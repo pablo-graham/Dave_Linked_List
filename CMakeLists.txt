@@ -19,6 +19,9 @@ add_executable(main src/main.cpp
         src/Iterator/Iterator.cpp
         src/Iterator/Iterator.h
         src/Iterator/ReverseIterator.h
-        src/Iterator/ConstIterator.h)
+        src/Iterator/ConstIterator.h
+        src/Trees/Tree.h
+        src/Trees/BST.h
+        src/Trees/Node.h)
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Graphics)
